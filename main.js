@@ -1,3 +1,8 @@
+// importacion de modulos
 import './style.css'
+import { AppFtn } from './src/modules/app'
 
-console.log('Hello World');
+// llamada a la funcion principal
+AppFtn('#app')
+
+// develop by: Ademir Rivera 2023
