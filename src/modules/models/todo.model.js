@@ -1,3 +1,5 @@
+// importacion de librerias
+import { v4 as uuid } from 'uuid'
 export class Todo_Class {
     /**
      * @description: este es el constructor de la clase Todo
@@ -16,7 +18,7 @@ export class Todo_Class {
             return
         }
 
-        this.id = 1
+        this.id = uuid()
         this.description = description_param
         this.done = false
         this.created_at = new Date()
